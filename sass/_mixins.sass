@@ -1,0 +1,24 @@
+@mixin link_hover
+    &:after
+        content: ''
+        display: block
+        transition: 0.1s all
+        background-color: #fff
+        height: 2px  
+        width: 0%
+    &:hover
+        transition: 0.5s all
+        font-size: 16px
+        color: #fff
+        &:after
+            content: ''
+            display: block
+            transition: 0.5s all
+            background-color: #fff
+            height: 2px   
+            width: 100%     
+
+@mixin btn_hover
+    &:hover
+        background: none
+        background-color: $main-color
