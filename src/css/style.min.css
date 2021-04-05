@@ -954,6 +954,9 @@ footer {
   .promo_btn {
     margin-top: 60px;
   }
+  .reasons_round {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 575.5px) {
